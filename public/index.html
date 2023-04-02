@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=0, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather Journal App | Front End Web Development</title>
+</head>
+<body>
+  <canvas></canvas>
+  <div id="container">
+    <div id="yellow-circle"></div>
+    <div id="circle">
+        <div id="text-container-1">
+            <h1>Weather <br> Journal App</h1>
+            
+            <form>
+                <textarea name="" id="zip" placeholder="What's your Australian zip code?"></textarea><br>
+                <textarea id="feelings" name="comment" placeholder="☁︎ Tell me how you're feeling ☁︎"></textarea>
+                <br>
+                <input id= "generate" type="submit" value="Submit">
+            </form>
+
+        </div>
+    </div>
+    <div id="entryHolder"></div> 
+  </div>
+
+  <script src="cloud.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
