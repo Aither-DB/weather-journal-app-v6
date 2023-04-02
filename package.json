@@ -1,0 +1,34 @@
+{
+  "name": "weather-journal-app-v3",
+  "version": "1.0.0",
+  "description": "This is a weather journal app. When you submit your zip code and a comment about your feelings it stores it in the database along with a timestamp.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "weather",
+    "journal",
+    "app",
+    "apis",
+    "async",
+    "functions",
+    "JavaScript",
+    "front",
+    "end",
+    "web",
+    "development."
+  ],
+  "author": "Daniel Brasher",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.3.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nedb": "^1.8.0",
+    "nodemon": "^2.0.22",
+    "request": "^2.88.2"
+  }
+}
